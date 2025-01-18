@@ -8,7 +8,12 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
+import react from './react-logo.png';
+import github from './github-logo.png';
+import next from './nextjs-icon.svg';
+import framer from './framer-icon.png';
 import git from './git.png';
+import wordpress from './wordpress-icon.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
@@ -47,7 +52,12 @@ export const assets = {
     vscode,
     firebase,
     figma,
+    wordpress,
     git,
+    react,
+    framer,
+    next,
+    github,
     mongodb,
     right_arrow_white,
     logo,
@@ -113,5 +123,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.framer, assets.react, assets.next, assets.github,assets.wordpress
 ];
