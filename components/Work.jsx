@@ -10,7 +10,7 @@ const Work = ({isDarkMode}) => {
         </h4>
         <h2 className='text-center text-5xl font-Ovo'>My latest work </h2>
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo '>
-            Here are some of my recent projects showcasing my expertise and creativity:
+            Here are some of my recent projects showcasing my expertise and creativity in building scalable fintech and SaaS applications:
         </p>
         
         <div className='grid grid-cols-auto my-10 gap-5 dark:text-black'>
@@ -36,11 +36,11 @@ const Work = ({isDarkMode}) => {
             ))}
         </div>
 
-        <a href="" className=' w-max flex items-center justify-center gap-2
+        {/* <a href="" className=' w-max flex items-center justify-center gap-2
          text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20
          hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
             show more <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='right-arrow' loading='lazy' className='w-4'/>
-        </a>
+        </a> */}
     </div>
   )
 }

@@ -27,16 +27,15 @@ const Header = () => {
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.8, delay: 0.5}}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Web Solutions Specialist based in Lagos.
+            A Frontend Engineer based in Lagos, Nigeria.
         </motion.h1>
         <motion.p 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        a passionate frontend developer with expertise in modern tools and frameworks. 
-        I specialize in transforming ideas into engaging digital experiences using technologies like 
-        JavaScript, React, Next and TailwindCSS.        
+         Building scalable fintech and SaaS experiences with React, React Native, Next.js, and TypeScript — crafting fast, accessible, and user-focused interfaces.
+       
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a
@@ -49,7 +48,7 @@ const Header = () => {
             initial={{y: 30, opacity: 0 }}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
-             href="THOMPSON-Opeyemi-Resume.pdf" download 
+             href="THOMPSON-OPEYEMI-ODUNAYO-CV.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>my resume <Image src={assets.download_icon} alt='download' loading='lazy' className='w-4'/></motion.a>
 
         </div>

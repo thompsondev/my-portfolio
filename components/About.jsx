@@ -44,9 +44,11 @@ const About = ({isDarkMode}) => {
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
                  
-                    With a strong eye for design and performance, I focus on building websites and web apps that are not only visually 
-                    impressive but also optimized for speed and user experience. Whether it's crafting pixel-perfect designs or implementing
-                     interactive features, I ensure every project meets the highest standards.
+                Frontend Engineer with 4+ years of experience building scalable fintech and SaaS applications
+using React, Next.js, and TypeScript. Skilled at delivering responsive, accessible, and
+high-performance user interfaces, integrating complex APIs, and collaborating across teams to
+deliver impactful products. Passionate about leveraging modern frameworks and best practices
+to deliver exceptional user experiences.
                 </p>
                 <motion.ul 
                 initial={{opacity: 0}}

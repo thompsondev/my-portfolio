@@ -88,38 +88,37 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Paystack payment integration',
+        description: 'Integrating Paystack payment gateway to enable seamless payment processing for fintech applications.',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Loan management system',
+        description: 'Building a scalable loan management system using React, Next.js, and TypeScript.',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Fintech application',
+        description: 'Building a scalable fintech application using React, Next.js, and TypeScript.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'E-commerce application',
+        description: 'Building a scalable e-commerce application using React, Next.js, and TypeScript.',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'Building responsive, accessible, and high-performance web applications using React, Next.js, and TypeScript.', link: '' },
+    { icon: assets.mobile_icon, title: 'Mobile app development', description: 'Creating scalable, user-friendly mobile applications with React Native and Expo.', link: '' },
+    { icon: assets.graphics_icon, title: 'API Integration', description: 'Integrating complex APIs to streamline data flow and improve application functionality.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, React, Next.js, TypeScript,React Native, Expo' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 20 projects' }
 ];
 
 export const toolsData = [
